@@ -1,0 +1,62 @@
+form.cog-form {
+    width: 100% !important;
+}
+form.cog-form input {
+	background-color: var(--menu) !importrant;
+}
+div#loading-text {
+    font-size: 32px;
+}
+.el-select-dropdown ul li {
+	color: var(--blue) !important;
+	background-color: var(--menu) !important;
+}
+.cog-branding, .cog-abuse {
+	display: none !important;
+}
+
+
+/* Grid Contact Page */
+.content-grid {
+	width: 100%;
+	padding: 50px 200px;
+}
+.content-grid .column {
+    width: 100%;
+	font-family: var(--title-links-text);
+	font-weight: 100;
+	font-style: normal;
+}
+.contactTitle {
+	font-size: 3em;
+}
+.txt_disclaimer, .txt_disclaimer a {
+	font-size: 10px;
+	font-style: italic;
+}
+.txt_disclaimer a {
+	color: var(--blue);
+	text-decoration: none;
+}
+
+
+
+
+@media only screen and (max-width: 1440px)  {
+
+	/* Grid Contact Page */
+	.content-grid {
+		width: 50%;
+		position: relative;
+		left: 50%;
+		transform: translate(-50%,0);
+		padding: 50px 50%;
+	}
+	.content-grid .column {
+		width: 100%;
+		font-family: var(--title-links-text);
+		font-weight: 100;
+		font-style: normal;
+	}
+
+}
