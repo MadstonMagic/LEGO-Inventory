@@ -4,22 +4,22 @@
 	<head>
 		<meta charset="utf-8">
 			
-		<title>MadstonMagic - 3D Shop</title>
-		<link rel="icon" type="image/png" href="https://madstonmagic.github.io/shop/images/favicon.png">
-		<meta name="description" content="MadstonMagic - 3D Shop">
-		<meta name="author" content="MadstonMagic">
+		<title>BZD - LEGO Inventory</title>
+		<link rel="icon" type="image/png" href="../images/favicon.png">
+		<meta name="description" content="BZD - LEGO Inventory">
+		<meta name="author" content="Boze Steen">
 		<!-- CDN JavaScript -->
-		<script src="../shop/js/jquery-3.6.4.min.js"></script>
+		<script src="../LEGO-Inventory/js/jquery-3.6.4.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.js"></script>
 		
 		<!-- Custom Scripts - MadstonMagic -->
-		<script src="../shop/js/script.js"></script>
-		<script src="../shop/js/slider_images.js"></script>
-		<script src="../shop/js/posts-filter-v1.0.js"></script>
+		<script src="../LEGO-Inventory/js/script.js"></script>
+		<script src="../LEGO-Inventory/js/slider_images.js"></script>
+		<script src="../LEGO-Inventory/js/posts-filter-v1.0.js"></script>
 		
 		<!-- Custom CSS - MadstonMagic -->
-		<link rel="stylesheet" href="../shop/css/style.css">
-		<link rel="stylesheet" href="../shop/css/mobile.css">
+		<link rel="stylesheet" href="../LEGO-Inventory/css/style.css">
+		<link rel="stylesheet" href="../LEGO-Inventory/css/mobile.css">
 		
 		<!-- CDN CSS -->
 		<link rel="stylesheet" href="https://use.typekit.net/chc7dqq.css">
@@ -35,27 +35,13 @@
 			</div>
 		</div>
 		
-		<!-- Enlarged Image -->
-		<div id="imgLarge">
-			<ul class="controls">
-				<!--<li class="prev">&#8882;</li>-->
-				<li class="next">&#8883;</li>
-			</ul>
-			<div class="background"></div>
-			<img class="imgMiddle" src="">
-			<p class="exit">
-				<i class="fa-times fa"></i>
-			</p>
-		</div>
 		
-		
-		<!-- Header - Parallax -->
+		<!-- Header -->
 		<div class="header">
 			<div class="slider_content">
-				<img class="headerBanner" src="images/headers/header_1.png" alt="header_banner">
 				<div class="headerContent">
-					<h1>MadstonMagic - Portfolio &amp; Webshop</h1>
-					<p class="slider_text">3D Game Artist</p>
+					<h1>LEGO&#174; Inventory - Minigures &amp; Sealed Sets</h1>
+					<p class="slider_text">LEGO&#174; Star Wars</p>
 				</div>
 			</div>
 		</div>
@@ -71,14 +57,14 @@
 			<div class="menu">
 				<img alt="logo" class="logo" src="../shop/images/logo_900x409.png">				
 				<ul class="menuList">
-					<li class="menuList_item title-menu">Categories</li>
 					<li class="menuList_item category-title category cat_all"><span>Show All</span></li>
-					<li class="menuList_item category-title category cat_firearms"><span>Firearms</span></li>
-					<li class="menuList_item category-title category cat_weaponry"><span>Weaponry</span></li>
-					<li class="menuList_item category-title category cat_creatures"><span>Creatures</span></li>
-					<li class="menuList_item category-title category cat_misc"><span>Misc</span></li>
-					<li class="menuList_item category-title category cat_gameassets"><span>Game Assets</span></li>
-					<li class="menuList_item category-title page_contact"><span><a href="../shop/contact">Contact</a></span></li>
+					<li class="menuList_item category-title category cat_sw"><span>Star Wars</span></li>
+					<li class="menuList_item category-title category cat_sh"><span>Super Heroes</span></li>
+					<li class="menuList_item category-title category cat_hp"><span>Harry Potter</span></li>
+					<li class="menuList_item category-title category cat_pm"><span>Power Miners</span></li>
+					<li class="menuList_item category-title category cat_col"><span>Collectables</span></li>
+					<li class="menuList_item category-title category cat_part"><span>Loose Parts</span></li>
+					<li class="menuList_item category-title category cat_sealed"><span>Sealed Sets</span></li>
 					<i class="close hiddenLargeScreen fa fa-times"></i>
 				</ul>
 			</div>
@@ -92,12 +78,13 @@
 				<img alt="logo" class="logo" src="../shop/images/logo_900x409.png">
 				<ul class="menuList">
 					<li class="menuList_item category-title category cat_all"><span>Show All</span></li>
-					<li class="menuList_item category-title category cat_firearms"><span>Firearms</span></li>
-					<li class="menuList_item category-title category cat_weaponry"><span>Weaponry</span></li>
-					<li class="menuList_item category-title category cat_creatures"><span>Creatures</span></li>
-					<li class="menuList_item category-title category cat_misc"><span>Misc</span></li>
-					<li class="menuList_item category-title category cat_gameassets"><span>Game Assets</span></li>
-					<li class="menuList_item category-title page_contact"><span><a href="../shop/contact">Contact</a></span></li>
+					<li class="menuList_item category-title category cat_sw"><span>Star Wars</span></li>
+					<li class="menuList_item category-title category cat_sh"><span>Super Heroes</span></li>
+					<li class="menuList_item category-title category cat_hp"><span>Harry Potter</span></li>
+					<li class="menuList_item category-title category cat_pm"><span>Power Miners</span></li>
+					<li class="menuList_item category-title category cat_col"><span>Collectables</span></li>
+					<li class="menuList_item category-title category cat_part"><span>Loose Parts</span></li>
+					<li class="menuList_item category-title category cat_sealed"><span>Sealed Sets</span></li>
 					<i class="close hiddenLargeScreen fa fa-times"></i>
 				</ul>
 			</div>
@@ -114,198 +101,30 @@
 			<div class="posts-main-container">
 				
 				<!------------------------------------------------------------------------------------------->
-				<!-- COD MW3 - Weaponry Pack ---------------------------------------------------------------->
+				<!-- Entry ---------------------------------------------------------------->
 				<!------------------------------------------------------------------------------------------->
-				<div class="all firearms single-post" id="mw3_pack">					
-					<div class="post-img">
-						<div class="vergroot-glas"><i class="fa fa-expand-alt"></i></div>
-						<img class="content-img" src="../shop/images/shop/cod_mw3_pack_1.png" alt="post">
-					</div>
-					
-					<div class="category-ribbon">
-						<span class="category-name"><span class="cat_bold">Categories: </span>Firearms</span>
-						<span class="price">&euro; 30</span>
-					</div>
+				<div class="all sw single-post">					
+					<div class="post-img"><a href="https://www.bricklink.com/catalogPG.asp?M=sw1216" target="_self"><img class="content-img" src="https://img.bricklink.com/ItemImage/MN/0/sw1216.png" alt="post"></a></div>
+					<div class="category-ribbon"><span class="category-name"><span class="cat_bold">Category: <br></span></span class="category-text"></div>
 					<div class="post-content">
-						<table>
-						<!-- Title -->
-							<tr>
-								<td><h1>Call Of Duty - MW3 Pack</h1></td>
-							</tr>
-							<!-- Pack Contents -->
-							<tr>
-								<td>
-									<span class="contents-click">
-										<p>View Pack Contents</p>
-										<div class="contents-wrapper">
-											<ul class="visibleContents">
-												<li>Low Poly Minecraft - UMP-45</li>
-												<li>Low Poly Minecraft - MP9</li>
-												<li>Low Poly Minecraft - P90</li>
-												<li>Low Poly Minecraft - ACR 6.8</li>
-												<li>Low Poly Minecraft - M4A1</li>
-												<li>Low Poly Minecraft - L86 LSW</li>
-												<li>Low Poly Minecraft - Striker</li>
-											</ul>
-										</div>
-									</span>
-								</td>
-							</tr>
-							<!-- Pack Compatibility -->
-							<tr>
-								<td>
-									<div class="versions">
-										<span class="version-click">
-											<p>View Version Compatibility</p>
-											<div class="contents-wrapper">
-												<ul class="visibleCompatibilities">
-													<li><span class="1_8 incompatible">1.8+</span></li>
-													<li><span class="1_9 incompatible">1.9+</span></li>
-													<li><span class="1_12 compatible">1.12+</span></li>
-													<li><span class="1_13 compatible">1.13+</span></li>
-													<li><span class="1_14 compatible">1.14+</span></li>							
-													<li><span class="1_18 incompatible">1.18+</span></li>							
-												</ul>
-											</div>
-										</span>
-									</div>
-								</td>
-							</tr>
-							<!-- Images -->
-							<tr>
-								<td>
-									<div class="process">
-										<div class="inner">
-											<h2>More Images</h2>
-											<div class="image-slider-wrapper">
-												<div class="click_trigger image" title="Click to view the images">
-													<div class="image">
-														<img class="img1" src="../shop/images/shop/cod_mw3_pack_2.png" alt="COD MW3 Pack">
-													</div>
-													<div class="image">
-														<img class="img2" src="../shop/images/shop/cod_mw3_pack_3.png" alt="COD MW3 Pack">
-													</div>
-													<div class="image">
-														<img class="img3" src="../shop/images/shop/cod_mw3_pack_4.png" alt="COD MW3 Pack">
-													</div>
-												</div>								
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<!-- Purchase Button -->
-							<tr>
-								<td>
-									<div class="links_bottom">
-										<div class="btn_purchase">
-											<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-												<input type="submit" value="Purchase Now!" class="purchase">
-												<input type="hidden" name="cmd" value="_s-xclick">
-												<input type="hidden" name="hosted_button_id" value="9GQUK2F73DTDJ">
-											</form>	
-										</div>
-									</div>	
-								</td>
-							</tr>
-						</table>
+						<p><span class="part-title" style="font-size:20px;font-weight:600;">Taun We</span><br><span class="part-code">sw1216</span></p>
+						<iframe height="150" src="https://www.bricklink.com/v2/catalog/catalogitem.page?M=sw1216#T=P">
 					</div>
 				</div>
-				<!------------------------------------------------------------------------------------------->
-				<!-- End COD MW3 - Weaponry Pack ------------------------------------------------------------>
-				<!------------------------------------------------------------------------------------------->
-				
+				<!-- End Entry ------------------------------------------------------------>
 				
 				<!------------------------------------------------------------------------------------------->
-				<!-- Bechowiec - Singular Model ------------------------------------------------------------->
+				<!-- Entry ---------------------------------------------------------------->
 				<!------------------------------------------------------------------------------------------->
-				<div class="all firearms single-post" id="bechowiec">					
-					<div class="post-img">
-						<div class="vergroot-glas"><i class="fa fa-expand-alt"></i></div>
-						<img class="content-img" src="../shop/images/shop/bechowiec.png" alt="post">
-					</div>
-					
-					<div class="category-ribbon">
-						<span class="category-name"><span class="cat_bold">Categories: </span>Firearms</span>
-						<span class="price">&euro; 36</span> 
-					</div>
-					<div class="post-content">
-						<table>
-						<!-- Title -->
-							<tr>
-								<td><h1>Bechowiec</h1></td>
-							</tr>
-							<!-- Pack Contents -->
-							<tr>
-								<td>
-									<span class="contents-click">
-										<p>View Pack Contents</p>
-										<div class="contents-wrapper">
-											<ul class="visibleContents">
-												<li>Low Poly Minecraft Bechowiech</li>
-											</ul>
-										</div>
-									</span>
-								</td>
-							</tr>
-							<!-- Pack Compatibility -->
-							<tr>
-								<td>
-									<div class="versions">
-										<span class="version-click">
-											<p>View Version Compatibility</p>
-											<div class="contents-wrapper">
-												<ul class="visibleCompatibilities">
-													<li><span class="1_8 incompatible">1.8+</span></li>
-													<li><span class="1_9 incompatible">1.9+</span></li>
-													<li><span class="1_12 incompatible">1.12+</span></li>
-													<li><span class="1_13 incompatible">1.13+</span></li>
-													<li><span class="1_14 compatible">1.14+</span></li>							
-													<li><span class="1_18 incompatible">1.18+</span></li>							
-												</ul>
-											</div>
-										</span>
-									</div>
-								</td>
-							</tr>
-							<!-- Images -->
-							<tr>
-								<td>
-									<div class="process">
-										<div class="inner">
-											<h2>Videos</h2>
-											<div class="image-slider-wrapper">
-												<div class="click_trigger image" title="Click to view the images">
-													<div class="image video">
-														<a href="https://www.youtube.com/watch?v=CEpgqnER5PU" target="_blank"><img class="img1" src="../shop/images/shop/bechowiec_thumbnail.png" alt="Bechowiec"></a>
-													</div>
-													
-												</div>								
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<!-- Purchase Button -->
-							<tr>
-								<td>
-									<div class="links_bottom">
-										<div class="btn_purchase">
-											<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-												<input type="submit" value="Purchase Now!" class="purchase">
-												<input type="hidden" name="cmd" value="_s-xclick">
-												<input type="hidden" name="hosted_button_id" value="QRAH5898VQYN2">
-											</form>		
-										</div>
-									</div>	
-								</td>
-							</tr>
-						</table>
-					</div>
+				<div class="all hp single-post">					
+					<div class="post-img"><img class="content-img" src="https://img.bricklink.com/ItemImage/PN/88/horntail01.png" alt="post"></div>
+					<div class="category-ribbon"><span class="category-name"><span class="cat_bold">Category: <br></span class="category-text"></span></div>
+					<div class="post-content"><p><span class="part-title" style="font-size:20px;font-weight:600;">Taun We</span><br><span class="part-code">sw1216</span></p></div>
 				</div>
-				<!------------------------------------------------------------------------------------------->
-				<!-- End Bechowiec -------------------------------------------------------------------------->
-				<!------------------------------------------------------------------------------------------->
+				<!-- End Entry ------------------------------------------------------------>
+				
+				
+				
 			</div>
 		</div>
 		

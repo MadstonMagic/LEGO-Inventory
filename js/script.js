@@ -103,14 +103,12 @@ $(document).ready( function() {
 	$(function () {
 		count = 0;
 		textArray = [
-			'Madston\'s Magic',
-			'Tip: Click on the images to take a close look.',
-			'3D modeller of Minecraft Java models',
-			'Rookie Video Game modeller',
-			'It\s MADSTON, not Mad Stone \>\:\(',
-			'Fulltime PC user',
-			'Addicted to looking at pictures of cool games I can\'t afford',
-			'Professional Gaming Chair user.'
+			'LEGO&#174; Star Wars',
+			'LEGO&#174; Harry Potter',
+			'LEGO&#174; Power Miners',
+			'LEGO&#174; Marvel &amp; DC',
+			'LEGO&#174; Collectable Minifigures',
+			'LEGO&#174; Loose parts'
 		];
 		
 		setInterval(function () {

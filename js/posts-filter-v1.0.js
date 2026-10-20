@@ -10,57 +10,79 @@ $(document).ready(function(){
 	});
 	
 	//-------------------
-	//Show Firearms Only
+	//Show Star Wars Only
 	//-------------------
-	$('.cat_firearms').on('click',function() {
+	$('.cat_sw').on('click',function() {
 		
 		//$('.menuList_item').css("color", "var(--blue)");
-		//$('.cat_firearms').css("color", "var(--white)");
+		//$('.cat_sw').css("color", "var(--white)");
 		$('.single-post.all').css("display","none");
-		$('.single-post.firearms').css("display","block");
+		$('.single-post.sw').css("display","block");
 	});
 	
 	//-------------------
-	//Show Weaponry Only
+	//Show Super Heroes Only
 	//-------------------
-	$('.cat_weaponry').on('click',function() {
+	$('.cat_sh').on('click',function() {
 		
 		//$('.menuList_item').css("color", "var(--blue)");
-		//$('.cat_weaponry').css("color", "var(--white)");
+		//$('.cat_sh').css("color", "var(--white)");
 		$('.single-post.all').css("display","none");
-		$('.single-post.weaponry').css("display","block");
+		$('.single-post.sh').css("display","block");
 	});
 	
 	//-------------------
-	//Show Creatures Only
+	//Show Harry Potter Only
 	//-------------------
-	$('.cat_creatures').on('click',function() {
+	$('.cat_hp').on('click',function() {
 		
 		//$('.menuList_item').css("color", "var(--blue)");
-		//$('.cat_creatures').css("color", "var(--white)");
+		//$('.cat_hp').css("color", "var(--white)");
 		$('.single-post.all').css("display","none");
-		$('.single-post.creatures').css("display","block");
+		$('.single-post.hp').css("display","block");
 	});
 	
 	//-------------------
-	//Show Misc Only
+	//Show Collectables Only
 	//-------------------
-	$('.cat_misc').on('click',function() {
+	$('.cat_col').on('click',function() {
 		
 		//$('.menuList_item').css("color", "var(--blue)");
-		//$('.cat_misc').css("color", "var(--white)");
+		//$('.cat_col').css("color", "var(--white)");
 		$('.single-post.all').css("display","none");
-		$('.single-post.misc').css("display","block");
+		$('.single-post.col').css("display","block");
 	});
 	
 	//-------------------
-	//Show Game Assets Only
+	//Show Power Miners Only
 	//-------------------
-	$('.cat_gameassets').on('click',function() {
+	$('.cat_pm').on('click',function() {
 		
 		//$('.menuList_item').css("color", "var(--blue)");
-		//$('.cat_misc').css("color", "var(--white)");
+		//$('.cat_pm').css("color", "var(--white)");
 		$('.single-post.all').css("display","none");
-		$('.single-post.gameassets').css("display","block");
+		$('.single-post.pm').css("display","block");
+	});
+	
+	//-------------------
+	//Show Loose Parts Only
+	//-------------------
+	$('.cat_part').on('click',function() {
+		
+		//$('.menuList_item').css("color", "var(--blue)");
+		//$('.cat_part').css("color", "var(--white)");
+		$('.single-post.all').css("display","none");
+		$('.single-post.part').css("display","block");
+	});
+	
+	//-------------------
+	//Show Sealed Sets Only
+	//-------------------
+	$('.cat_sealed').on('click',function() {
+		
+		//$('.menuList_item').css("color", "var(--blue)");
+		//$('.cat_sealed').css("color", "var(--white)");
+		$('.single-post.all').css("display","none");
+		$('.single-post.sealed').css("display","block");
 	});
 });
